@@ -26,6 +26,24 @@ The project transforms more than 540,000 retail transaction records into custome
 
 **Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Google Colab
 
+### [Fraud Anomaly Detection](fraud-anomaly-detection)
+
+An unsupervised machine learning project evaluating anomaly detection for highly imbalanced credit card fraud data.
+
+**Key areas:**
+- Data quality and preprocessing
+- Extreme class imbalance
+- Isolation Forest
+- Local Outlier Factor
+- Precision, recall, F1-score and Average Precision
+- Alert-rate sensitivity analysis
+- Validation on unseen data
+- Business and ethical implications
+
+**Key finding:** Isolation Forest substantially outperformed Local Outlier Factor in both the initial comparison and unseen-data validation, demonstrating stronger fraud prioritisation while also highlighting the operational trade-off between fraud detection and false-positive workload.
+
+**Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, KaggleHub, Google Colab
+
 ---
 
 ## Portfolio Development
