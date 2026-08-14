@@ -33,3 +33,21 @@ A key finding was that **16.44% of customers generated 64.89% of total monetary 
 **Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Google Colab
 
 ➡️ [View the complete project](./projects/customer-segmentation-kmeans)
+
+
+### [Fraud Anomaly Detection](projects/fraud-anomaly-detection)
+
+An unsupervised machine learning project comparing Isolation Forest and Local Outlier Factor for fraud prioritisation in highly imbalanced credit card transaction data.
+
+**Highlights:**
+- Compared Isolation Forest and Local Outlier Factor under equivalent alert conditions
+- Evaluated precision, recall, F1-score and Average Precision
+- Analysed alert-rate sensitivity and false-positive workload
+- Validated model behaviour on previously unseen transactions
+- Examined business implications, operational trade-offs and ethical limitations
+
+**Key result:** Isolation Forest consistently outperformed Local Outlier Factor and provided substantially stronger fraud prioritisation, while also demonstrating the trade-off between fraud coverage and investigation workload.
+
+**Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, KaggleHub, Google Colab
+
+[View complete project](projects/fraud-anomaly-detection)
