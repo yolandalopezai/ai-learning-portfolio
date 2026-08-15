@@ -43,7 +43,23 @@ An unsupervised machine learning project evaluating anomaly detection for highly
 **Key finding:** Isolation Forest substantially outperformed Local Outlier Factor in both the initial comparison and unseen-data validation, demonstrating stronger fraud prioritisation while also highlighting the operational trade-off between fraud detection and false-positive workload.
 
 **Technologies:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, KaggleHub, Google Colab
+### [Market Basket Analysis with Apriori](market-basket-analysis-apriori)
 
+An association rule mining project focused on discovering product relationships, cross-selling opportunities and multi-product bundle patterns in UK retail transactions.
+
+**Key areas:**
+- Transaction cleaning and basket construction
+- Apriori frequent itemset mining
+- Support, confidence and lift
+- Product-to-product association rules
+- Bundle opportunity analysis
+- Commercial volume vs. association strength
+- Seasonality analysis
+- Business recommendations
+
+**Key finding:** The analysis identified 92 unique product-pair relationships and several commercially meaningful three-product bundles. Strong patterns emerged within Regency tableware, Jumbo Bags and seasonal Christmas products, while the seasonality check showed that high lift must be interpreted alongside temporal purchasing behaviour.
+
+**Technologies:** Python, Pandas, mlxtend, Apriori, Association Rule Mining, Matplotlib, Google Colab
 ---
 
 ## Portfolio Development
