@@ -71,3 +71,23 @@ An association rule mining project focused on identifying product relationships,
 **Technologies:** Python, Pandas, mlxtend, Apriori, Association Rule Mining, Matplotlib, Google Colab
 
 [View complete project](projects/market-basket-analysis-apriori)
+### [CNN Image Classification with CIFAR-10](./projects/cnn-image-classification-cifar10)
+
+Deep learning image classification project comparing a baseline Convolutional Neural Network with a more regularised TensorFlow/Keras architecture.
+
+**Highlights:**
+
+- 60,000 CIFAR-10 RGB images across 10 balanced classes
+- Baseline CNN with clear overfitting analysis
+- Improved architecture using data augmentation, Batch Normalisation and Dropout
+- Global Average Pooling to reduce model size
+- Test accuracy improved from 72.57% to 76.58%
+- Macro F1-score improved from 0.7246 to 0.7636
+- F1-score improved in 9 of the 10 classes
+- Detailed confusion matrix and prediction error analysis
+
+**Key finding:** The improved CNN increased test accuracy by **4.01 percentage points** while reducing the model from **356,810 to 141,674 total parameters**.
+
+**Technologies:** Python, TensorFlow, Keras, NumPy, Pandas, Scikit-learn, Matplotlib, Google Colab
+
+➡️ [View the complete project](./projects/cnn-image-classification-cifar10)
