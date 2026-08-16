@@ -87,6 +87,28 @@ Deep learning image classification project comparing a baseline Convolutional Ne
 - Detailed confusion matrix and prediction error analysis
 
 **Key finding:** The improved CNN increased test accuracy by **4.01 percentage points** while reducing the model from **356,810 to 141,674 total parameters**.
+### [Structured Information Extraction with NLP](./projects/structured-information-extraction-nlp)
+
+Hybrid NLP project for transforming unstructured operational text into structured, machine-readable records using spaCy, domain-specific rules, schema-level extraction logic and JSON output.
+
+**Highlights:**
+
+- Pretrained spaCy Named Entity Recognition baseline
+- 34 domain-specific EntityRuler patterns
+- Date and time extraction independent of NER labels
+- Operational event, action and quantity extraction
+- Error analysis on unseen operational text
+- Robustness performance improved from 60.42% to 95.83%
+- Independent final holdout evaluation
+- Final field-level accuracy of **93.75%**
+- 45 of 48 holdout fields correctly extracted
+- Structured JSON output for downstream workflows
+
+**Key finding:** A perfect development result did not imply generalisation. Independent testing exposed substantial overfitting in the initial rules, and error-driven redesign improved the frozen pipeline to **93.75% accuracy on completely unseen holdout text**.
+
+**Technologies:** Python, spaCy, EntityRuler, Regular Expressions, Pandas, JSON, Google Colab
+
+➡️ [View the complete project](./projects/structured-information-extraction-nlp)
 
 **Technologies:** Python, TensorFlow, Keras, NumPy, Pandas, Scikit-learn, Matplotlib, Google Colab
 
