@@ -78,6 +78,24 @@ Deep learning image classification project comparing a baseline Convolutional Ne
 **Key result:** Improved test accuracy from **72.57% to 76.58%** while reducing the model from **356,810 to 141,674 total parameters**. F1-score improved in nine of the ten CIFAR-10 classes.
 
 **Technologies:** Python, TensorFlow, Keras, NumPy, Pandas, Matplotlib, scikit-learn
+### [Structured Information Extraction with NLP](./structured-information-extraction-nlp)
+
+Hybrid NLP project for converting unstructured operational text into structured, machine-readable information using spaCy, domain-specific rules and JSON output.
+
+**Key areas:**
+- Named Entity Recognition
+- spaCy EntityRuler
+- Rule-based information extraction
+- Schema-level field selection
+- Regular expressions
+- Error analysis
+- Robustness testing
+- Independent holdout evaluation
+- Structured JSON output
+
+**Key result:** The frozen extraction pipeline achieved **93.75% field-level accuracy on an independent final holdout set**, correctly extracting **45 of 48 fields** across previously unseen operational texts.
+
+**Technologies:** Python, spaCy, EntityRuler, Regular Expressions, Pandas, JSON, Google Colab
 ---
 
 ## Portfolio Development
