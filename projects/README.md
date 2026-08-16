@@ -60,6 +60,24 @@ An association rule mining project focused on discovering product relationships,
 **Key finding:** The analysis identified 92 unique product-pair relationships and several commercially meaningful three-product bundles. Strong patterns emerged within Regency tableware, Jumbo Bags and seasonal Christmas products, while the seasonality check showed that high lift must be interpreted alongside temporal purchasing behaviour.
 
 **Technologies:** Python, Pandas, mlxtend, Apriori, Association Rule Mining, Matplotlib, Google Colab
+### [CNN Image Classification with CIFAR-10](./cnn-image-classification-cifar10)
+
+Deep learning image classification project comparing a baseline Convolutional Neural Network with a more regularised architecture using TensorFlow and Keras.
+
+**Key areas:**
+- Convolutional Neural Networks
+- Image classification
+- Data augmentation
+- Batch Normalisation
+- Dropout regularisation
+- Global Average Pooling
+- Overfitting analysis
+- Class-level evaluation
+- Confusion matrix and prediction error analysis
+
+**Key result:** Improved test accuracy from **72.57% to 76.58%** while reducing the model from **356,810 to 141,674 total parameters**. F1-score improved in nine of the ten CIFAR-10 classes.
+
+**Technologies:** Python, TensorFlow, Keras, NumPy, Pandas, Matplotlib, scikit-learn
 ---
 
 ## Portfolio Development
