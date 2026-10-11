@@ -87,6 +87,10 @@ Deep learning image classification project comparing a baseline Convolutional Ne
 - Detailed confusion matrix and prediction error analysis
 
 **Key finding:** The improved CNN increased test accuracy by **4.01 percentage points** while reducing the model from **356,810 to 141,674 total parameters**.
+**Technologies:** Python, TensorFlow, Keras, NumPy, Pandas, Scikit-learn, Matplotlib, Google Colab
+
+➡️ [View the complete project](./projects/cnn-image-classification-cifar10)
+
 ### [Structured Information Extraction with NLP](./projects/structured-information-extraction-nlp)
 
 Hybrid NLP project for transforming unstructured operational text into structured, machine-readable records using spaCy, domain-specific rules, schema-level extraction logic and JSON output.
@@ -110,6 +114,4 @@ Hybrid NLP project for transforming unstructured operational text into structure
 
 ➡️ [View the complete project](./projects/structured-information-extraction-nlp)
 
-**Technologies:** Python, TensorFlow, Keras, NumPy, Pandas, Scikit-learn, Matplotlib, Google Colab
 
-➡️ [View the complete project](./projects/cnn-image-classification-cifar10)
